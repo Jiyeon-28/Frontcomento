@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title> id vs class </title>
+        <style>
+            h3, li {color : brown;}
+            div > div > strong {
+                background-color: yellow;
+            }
+            
+            .warning {
+                color : red;
+            }
+            .main {
+                background-color: aliceblue;
+            }
+            #list {
+                background-color : mistyrose;
+            }
+            #list span {
+                color : forestgreen;
+            }
+            h3:hover {
+                color : red;
+            }
+            li:hover {
+                background-color: yellowgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="main">
+            <h3> Frontend Studying </h3>
+            <hr>
+            <div> 지금 <strong> id와 class</strong>를 학습 중 입니다. </div> 
+                <ul id= "list">
+                    <li> HTML </li>
+                    <li><span> CSS </span></li>
+                </ul>
+            <div class = "warning"> 주의 사항</div>
+        </div>
+    </body>
+</html>
