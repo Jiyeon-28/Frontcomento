@@ -1,22 +1,83 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
     <head>
         <meta charset="utf-8">
-    <meta name = "viewport" content = "width=device-width", initial-scale="1.0">
+        <meta name = "viewport" content = "width=device-width", initial-scale="1.0">
     <title>자기소개 페이지</title>
     <style>
+        * {
+                box-sizing: border-box;
+        }
+
+        header {
+                background-color: skyblue;
+                padding : 30px;
+                text-align : center;
+                font-size : 35px;
+                color : white;
+        }
+        h3 > strong {
+            color : blue;
+        }
         
+
+        article {
+                float : left;
+                padding : 20px;
+                width : 70%;
+                background-color : rgb(250, 250, 116);
+                height : 400px;
+        }
+
+        nav {
+                float : left;
+                width : 30%;
+                height : 400px;
+                background : rgb(193, 250, 107);
+        }
+        section::after {
+                content: "";
+                display: table;
+                clear : both;
+        }
+
+        footer {
+                background-color: skyblue;
+                padding : 10px;
+                text-align : center;
+                color : black;
+        }
+        @media (max-widh : 600px) {
+                nav, article {
+                    width : 100%;
+                    height : auto;
+                }
+        }
+
     </style>
     </head>
     <body>
-        <h1>안녕하세요, 저는 Jiyeon입니다.</h1>
-        <p>저의 전공은 컴퓨터정보공학과입니다. 한국 출신이며, 현재 대학교 3학년에 재학 중입니다.</p>
-
-        <h2>취미</h2>
-        <ul>
-            <li> 노래 <a href = "https://www.youtube.com/watch?v=ekr2nIex040"> APT </a>
-            <li> 요리, 흑백요리사의 유포면
-        </ul>
-
+        <h1 >Repository</h1>
+        <h3>안녕하세요, 저는 <Strong>Jiyeon</Strong>입니다.</h3>
+        <p>저의 전공은 컴퓨터정보공학과입니다.<br> 한국 출신이며, 현재 대학교 3학년에 재학 중입니다.</p>
+        
+        <header><h2>취미</h2> </header>
+        <section>
+            <nav>
+                <ul>
+                    <h4>노래</h4>
+                        <li><a href = "https://www.youtube.com/watch?v=ekr2nIex040"> APT </a>
+                        <li><a href = "https://www.youtube.com/watch?v=ORHR-ZA4RyM"> I dont care </a>
+                    <h4>만들기</h4>
+                        <li><a href ="https://www.lego.com/ko-kr">LEGO</a>
+                </ul>
+            </nav>
+            <article>
+                <h3>나는 요리사<br><br><br></h3>
+                <p> 요즘 요리에 한창 빠진 Jiyeon. <br><br>오늘은 무엇을 만들어 볼까한다. <br>만든 것은?</p>
+                <p> 두둥. 흑백요리사에 나오는<br> '유포면을 만들어 보았다' <br>꽤나 맛있어 보이는데. 과연 성공인가?</p>
+            </article>
+        </section>
+        <footer> 요리 문의 : 010-1234-xxxx</footer>
     </body>
 </html>
