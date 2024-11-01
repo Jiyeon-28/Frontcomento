@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head> 
+        <title>CSS Template</title>
+        <meta charset = "utf-8">
+        <meta name ="viewport", content = "width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family : Arial, Helvetica, sans-serif;
+            }
+
+            header {
+                background-color: skyblue;
+                padding : 30px;
+                text-align : center;
+                font-size : 35px;
+                color : white;
+            }
+            h3:hover {
+                color : red;
+            }
+
+            nav {
+                float : left;
+                width : 30%;
+                height : 300px;
+                background : rgb(193, 250, 107);
+                padding : 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding : 0;
+            }
+
+            nav li {
+                color : blue;
+            }
+
+            article {
+                float : left;
+                padding : 20px;
+                width : 70%;
+                background-color : rgb(250, 250, 116);
+                height : 300px;
+            }
+
+            section::after {
+                content: "";
+                display: table;
+                clear : both;
+            }
+
+            footer {
+                background-color: skyblue;
+                padding : 10px;
+                text-align : center;
+                color : white;
+            }
+
+            @media (max-widh : 600px) {
+                nav, article {
+                    width : 100%;
+                    height : auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h3> Welcome to Korea!</h3>
+        <p> In this page, you can get the informations about the main cities in Korea.</p>
+        <p> The main subject in this page is about the capital cities of Republic of Korea, Seoul.</p>
+        <p> </p>
+
+        <header>
+            <h2>Cities Guide</h2>
+        </header>
+        <section>
+            <nav> 
+                <ul>
+                    <li>Seoul</li>
+                    <li><a href = "https://www.busan.go.kr/index"> Busan </a></li>
+                    <li><a href="https://www.daejeon.go.kr/"> DaeJeon </a></li>
+                    <li><a href = "https://www.daegu.go.kr/"> Daegu </a></li>
+                </ul>
+            </nav>
+
+            <article> 
+                <h1> <a href="https://www.seoul.go.kr/main/index.jsp"> Seoul</a> </h1>
+                <p> Seoul is the Capitial city of Republic of Korea. It is the most populous city in the Korea, with 9.35milion and 995. </p>
+                <p> You can see the whole beautiful night view of Seoul in Seoul N tower. Have a nice trip! </p>
+            </article>
+        </section>
+
+        <footer> 
+            <p> footer </p>
+        </footer>
+    </body>
+</html>
