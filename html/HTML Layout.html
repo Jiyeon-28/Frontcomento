@@ -49,7 +49,7 @@
                 height : 300px;
             }
 
-            section::after {
+            main::after {
                 content: "";
                 display: table;
                 clear : both;
@@ -62,8 +62,8 @@
                 color : white;
             }
 
-            @media (max-widh : 600px) {
-                nav, article {
+            @media (max-width : 600px) {
+                * {
                     width : 100%;
                     height : auto;
                 }
@@ -76,28 +76,30 @@
         <p> The main subject in this page is about the capital cities of Republic of Korea, Seoul.</p>
         <p> </p>
 
-        <header>
-            <h2>Cities Guide</h2>
-        </header>
-        <section>
-            <nav> 
-                <ul>
-                    <li>Seoul</li>
-                    <li><a href = "https://www.busan.go.kr/index"> Busan </a></li>
-                    <li><a href="https://www.daejeon.go.kr/"> DaeJeon </a></li>
-                    <li><a href = "https://www.daegu.go.kr/"> Daegu </a></li>
-                </ul>
-            </nav>
+        <div>
+            <header>
+                <h2>Cities Guide</h2>
+            </header>
+            <main>
+                <nav> 
+                    <ul>
+                        <li>Seoul</li>
+                        <li><a href = "https://www.busan.go.kr/index"> Busan </a></li>
+                        <li><a href="https://www.daejeon.go.kr/"> DaeJeon </a></li>
+                        <li><a href = "https://www.daegu.go.kr/"> Daegu </a></li>
+                    </ul>
+                </nav>
 
-            <article> 
-                <h1> <a href="https://www.seoul.go.kr/main/index.jsp"> Seoul</a> </h1>
-                <p> Seoul is the Capitial city of Republic of Korea. It is the most populous city in the Korea, with 9.35milion and 995. </p>
-                <p> You can see the whole beautiful night view of Seoul in Seoul N tower. Have a nice trip! </p>
-            </article>
-        </section>
+                <article> 
+                    <h1> <a href="https://www.seoul.go.kr/main/index.jsp"> Seoul</a> </h1>
+                    <p> Seoul is the Capitial city of Republic of Korea. It is the most populous city in the Korea, with 9.35milion and 995. </p>
+                    <p> You can see the whole beautiful night view of Seoul in Seoul N tower. Have a nice trip! </p>
+                </article>
+            </main>
 
-        <footer> 
-            <p> footer </p>
-        </footer>
+            <footer> 
+                <p> footer </p>
+            </footer>
+        </div>
     </body>
 </html>
