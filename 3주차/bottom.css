@@ -1,0 +1,11 @@
+.bottom{
+    width: 500px;
+    height : 90px;
+}
+
+.section3 {
+    width: 310px;
+    height : 80px;
+    float : left;
+    margin : 2px 0px 0px 10px;
+}

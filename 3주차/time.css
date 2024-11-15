@@ -1,0 +1,9 @@
+.time {
+    float : left;
+    width: 280px;
+    height : 60px;
+    padding : 2px;
+    border : 2px solid rgb(12, 83, 69);
+    font-size : 1.3em;
+    
+}

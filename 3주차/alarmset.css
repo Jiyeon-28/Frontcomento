@@ -1,0 +1,48 @@
+.alarmButton {
+    width: 50px;
+    height : 30px;
+    background-color: grey;
+    color : black;
+    font-size: 1em;
+}
+
+#hourCount {
+    color : black;
+}
+
+#minCount {
+    color : black;
+}
+
+#secCount {
+    color : black;
+}
+
+#add {
+    color: black;
+}
+
+.alarmsetupHour {
+    float : left;
+    width : 50px;
+    height : 40px;
+}
+
+.alarmsetupMin {
+    float : left;
+    width : 50px;
+    height : 40px;
+}
+
+.alarmsetupSec {
+    float : left;
+    width : 50px;
+    height : 40px;
+}
+
+.alarmsetTotal {
+    float : right;
+    width : 180px;
+    height : 65px;
+    text-align: center;
+}

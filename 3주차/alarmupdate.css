@@ -1,0 +1,10 @@
+.alarmupdate {
+    float : left;
+    width : 170px;
+    height : 150px;
+    border : 1px solid black;
+    background-color: rgb(25, 170, 141);
+    font-size: 0.8em;
+    padding : 2px;
+
+}

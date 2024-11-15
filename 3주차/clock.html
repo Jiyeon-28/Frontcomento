@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width=device-width", initial-scale="1.0">
+        <title> 알람 시계 만들기 </title>
+            <link href = 'total.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'top.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'middle.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'bottom.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'battery.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'alarmset.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'alarmupdate.css' type = "text/css" rel = "stylesheet" >
+            <link href = 'time.css' type = "text/css" rel = "stylesheet" >    </head>
+    <body>
+    <div class = "total">
+        <div class = "top">
+            <div class = "battery">
+                <script>
+                    updateCounter(); 
+                </script>
+            </div>
+        </div> 
+    
+            
+        <div class = "middle">
+            <div class = "section1">
+                <div class = "subject1"> 시간</div>
+                <div class = "time">                
+                <script>
+                    updatetime();
+                </script>
+                </div>
+            </div>
+            
+            <div class = "section2">
+                <div class = "subject2"> 알람 현황</div>
+                <div class = "alarmupdate"></div>
+            </div>
+        </div>
+
+        <div class = "bottom">
+            <div class = "section3">
+            <div class = "subject">알람 </div>
+            
+            
+                <button class = "alarmButton" id = "hourCount"> 시</button>
+                <button class = "alarmButton" id = "minCount">분</button>
+                <button class = "alarmButton" id = "secCount"> 초</button>
+                <button class = "alarmButton" id = "add"> 추가</button>
+            </div>
+
+            <div class = "alarmsetTotal">
+                <div class = "alarmsetupHour"></div>
+                <div class = "alarmsetupMin"></div>
+                <div class = "alarmsetupSec"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+        <script type = "text/javascript" src = "battery.js"></script>
+        <script type = "text/javascript" src = "time.js"></script>
+        <script type = "text/javascript" src = "alarmset.js"></script>
+        <script type = "text/javascript" src = "alarmupdate.js"></script>
+
+        
+    </body>
+    
+
+
+</html>

@@ -1,0 +1,18 @@
+.total {
+    width: 510px;
+    height: 330px;
+    box-sizing: border-box;
+    background-color: rgb(20, 131, 109);
+    border : 2px solid black;
+    border-radius: 5%;
+}
+
+.subject1 {
+    font-size : 1.1em;
+}
+
+.subject2 {
+    float : left;
+    font-size : 1.1em;
+    margin : 1px;
+}
