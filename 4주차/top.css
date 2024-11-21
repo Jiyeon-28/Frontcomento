@@ -1,0 +1,13 @@
+/*border정리*/
+/*+글씨 굵게*/
+
+.top {
+    width : 493px;
+    height : 70px;
+    font-size: 3em;
+    text-align: center;
+    border: 5px solid #000; /* 테두리 설정 */
+    border-top-left-radius: 100%; /* 왼쪽 위 모서리 */
+    border-top-right-radius: 100%;
+    justify-content: center;
+}

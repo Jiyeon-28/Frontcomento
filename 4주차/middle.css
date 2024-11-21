@@ -1,0 +1,33 @@
+.note {
+    width: 495px;
+    height: 530px;
+    border : 4px solid green;
+}
+/* border 지워야함.*/
+.section1 {
+    float : left;
+    width: 400px;
+    height : 530px;
+    border-right : 2px groove rgb(241, 138, 155) 
+
+}
+
+
+/* border 지워야함.*/
+.section2 {
+    width: 90px;
+    height : 530px;
+    float : right;
+    border-left : 2px groove rgb(144, 27, 47) 
+
+}
+
+.checkbox {
+    width : 35px;
+    height : 35px;
+    border : 1px solid black;
+    margin : 7px 7px;
+    align-items: center;
+
+
+}

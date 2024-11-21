@@ -1,0 +1,27 @@
+/* border*/
+.bottom {
+    width : 490px;
+    height : 80px;
+    border : 4px double black;
+    position : active;
+    font-size: 1.5em;
+    padding : 3px;
+    
+}
+
+/*질문 : css나 html의 태그, js등은 잘 모르는 태그가 있으면 찾아보면서 현업에서 작업하는지
+너무 많은데 다 어떻게 알고 하는지 */
+
+
+.addbutton {
+    width : 50px;
+    height : 30px;
+    border : 1px solid black;
+}
+
+.input-field {
+    width : 400px;
+    height : 30px;
+    font-size: 1pm;
+    margin : 1px;
+}
